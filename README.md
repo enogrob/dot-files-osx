@@ -1,1 +1,1 @@
-Rakefile for TODAY in OSX.
+Dot files in OSX.
