@@ -3,7 +3,7 @@ export JAVA_6_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 #latest JDK 7 by Oracle
 export JAVA_7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 #latest preview JDK 8 by Oracle
-export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home
+export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 #latest preview JDK 9 by Oracle
 export JAVA_9_HOME=/Library/Java/JavaVirtualMachines/jdk9.jdk/Contents/Home
 

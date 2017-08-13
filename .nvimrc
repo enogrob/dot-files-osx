@@ -1,0 +1,1 @@
+/Users/enogrob/.config/nvim/init.vim

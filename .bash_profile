@@ -7,6 +7,7 @@ MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 PATH=/usr/local/git/bin:$PATH
 #export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+export POSTGRES_USER=postgres
 
 export PATH="/Users/enogrob/Library/Application Support/GoodSync":$PATH
 # added by Anaconda 2.2.0 installer
@@ -45,3 +46,4 @@ export PATH="/Library/Application Support/GoodSync":$PATH
 
 test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"

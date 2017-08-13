@@ -14,7 +14,7 @@ export LESS_TERMCAP_so=$(printf '\e[01;33m') # enter standout mode – yellow
 export LESS_TERMCAP_ue=$(printf '\e[0m') # leave underline mode
 export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode – cyan
 
-EDITOR=vi
+EDITOR=nvim
 export EDITOR
 
 # aliases general
@@ -31,6 +31,8 @@ alias ps='ps aux'
 alias mytap='cd /usr/local/Library/Taps/caskroom/;open -g .'
 alias tree='tree -C -L 2'
 alias cypher='/usr/local/Cellar/neo4j/3.1.0/libexec/bin/cypher-shell -u neo4j -p betoz23'
+alias browser-sync='browser-sync --start --directory --files "**/*"'
+alias reload='exec bash'
 
 # alias todo.txt
 alias t='~/.todo/todo.sh'
@@ -176,7 +178,9 @@ function iterm2_print_user_vars() {
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Projects
 source ~/Library/Python/2.7/bin/virtualenvwrapper.sh
+source ~/.todayrc
 
+. /Users/enogrob/kerl/19.3/activate
 source $HOME/.evm/scripts/evm
 
 # Load RVM into a shell session *as a function*
