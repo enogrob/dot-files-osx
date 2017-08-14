@@ -61,7 +61,7 @@ let g:molokai_original=1
 set updatetime=250
 
 " making clipboard systemwide
-set clipboard=unnamed
+"set clipboard=unnamed
 set sessionoptions=buffers
 
 " Colorschemes
@@ -159,7 +159,7 @@ let g:gitgutter_eager = 0
 let g:gitgutter_enabled = 1
 
 " yankring
-let g:yankring_history_dir = '~/.config/nvim/backup'
+"let g:yankring_history_dir = '~/.config/nvim/backup'
 
 " vim-indent-guides
 let g:indent_guides_start_level = 2
@@ -224,10 +224,10 @@ nmap <leader>p :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 
 " yankring
-let g:yankring_replace_n_pkey = '<leader>['
-let g:yankring_replace_n_nkey = '<leader>]'
+"let g:yankring_replace_n_pkey = '<leader>['
+"let g:yankring_replace_n_nkey = '<leader>]'
 " ,y to show the yankring
-nmap <leader>y :YRShow<cr>
+"nmap <leader>y :YRShow<cr>
 
 " ctrlp
 " let g:ctrlp_map = '<leader>,'
