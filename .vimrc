@@ -1,6 +1,15 @@
 " install plugins
 execute pathogen#infect()
 
+nnoremap <silent> <ESC>OA <Nop>
+nnoremap <silent> <ESC>OB <Nop>
+nnoremap <silent> <ESC>OC <Nop>
+nnoremap <silent> <ESC>OD <Nop>
+inoremap <silent> <ESC>OA <Nop>
+inoremap <silent> <ESC>OB <Nop>
+inoremap <silent> <ESC>OC <Nop>
+inoremap <silent> <ESC>OD <Nop>
+
 " set default charset
 set encoding=utf-8
 set termencoding=utf-8
